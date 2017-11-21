@@ -16,7 +16,7 @@ class Church(models.Model):
 	contact_details = models.CharField(max_length=150)
 	address = models.CharField(max_length=150)
 	banking_details = models.CharField(max_length=150)
-	featured_update = models.ForeignKey('Update', null=True, related_name="church_featured_update")
+	featured_update = models.ForeignKey('Update', null=True, blank=True, related_name="church_featured_update")
 
 	def __unicode__(self):
 		return self.name	
