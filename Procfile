@@ -1,1 +1,1 @@
-web: gunicorn TTIPlatform.wsgi --preload --log-file -
+web: gunicorn BookingPlatform.wsgi --preload --log-file -
