@@ -1184,3 +1184,64 @@ UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 1: 
 [21/Nov/2017 10:09:17] WARNING [django.request:152] Not Found: /static/admin/css/login.css
 [21/Nov/2017 10:09:18] WARNING [django.request:152] Not Found: /favicon.ico
 [21/Nov/2017 10:09:18] WARNING [django.request:152] Not Found: /favicon.ico
+[21/Nov/2017 14:52:39] ERROR [django.request:124] Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 377, in login
+    return login(request, **defaults)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/auth/views.py", line 47, in inner
+    return func(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/auth/views.py", line 81, in login
+    if form.is_valid():
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/forms/forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/forms/forms.py", line 161, in errors
+    self.full_clean()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/forms/forms.py", line 371, in full_clean
+    self._clean_form()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/forms/forms.py", line 398, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/auth/forms.py", line 191, in clean
+    self.user_cache = authenticate(username=username, password=password)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/auth/__init__.py", line 74, in authenticate
+    user = backend.authenticate(**credentials)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/auth/backends.py", line 17, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/auth/base_user.py", line 48, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 379, in get
+    num = len(clone)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 238, in __len__
+    self._fetch_all()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 1087, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 833, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 231, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 204, in _cursor
+    self.ensure_connection()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/backends/base/base.py", line 170, in connect
+    conn_params = self.get_connection_params()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/backends/postgresql/base.py", line 158, in get_connection_params
+    "settings.DATABASES is improperly configured. "
+ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the NAME value.
