@@ -1180,3 +1180,7 @@ UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 1: 
 [21/Nov/2017 09:31:35] DEBUG [tti_ussd.views:22] list index out of range
 [21/Nov/2017 09:31:35] DEBUG [tti_ussd.views:25] *130*117*1#
 [21/Nov/2017 09:31:35] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 10:09:17] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[21/Nov/2017 10:09:17] WARNING [django.request:152] Not Found: /static/admin/css/login.css
+[21/Nov/2017 10:09:18] WARNING [django.request:152] Not Found: /favicon.ico
+[21/Nov/2017 10:09:18] WARNING [django.request:152] Not Found: /favicon.ico
