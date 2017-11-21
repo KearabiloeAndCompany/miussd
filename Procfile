@@ -1,0 +1,1 @@
+web: gunicorn TTIPlatform.wsgi --preload --log-file -

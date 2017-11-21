@@ -1,0 +1,1182 @@
+[15/Nov/2017 13:07:43] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_response_Home': [u'1'], u'ussd_node_name': [u'Confirmation'], u'ussd_response_DateTime': [u'TestDatetime'], u'ussd_response_Address': [u'TestLoc']}>
+[15/Nov/2017 13:07:43] DEBUG [tti_ussd.views:20] 'NoneType' object has no attribute 'strip'
+[15/Nov/2017 13:07:43] DEBUG [tti_ussd.views:22] *120*912*87#
+[15/Nov/2017 13:07:43] DEBUG [tti_ussd.views:23] None
+[15/Nov/2017 13:07:43] DEBUG [tti_ussd.views:24] None
+[15/Nov/2017 13:07:43] DEBUG [tti_ussd.views:30] Called Menu
+[15/Nov/2017 13:07:43] DEBUG [tti_ussd.utils:9] Sending sms.
+Message:Requested: 2017-11-15 11:07
+Cars: 1
+Where: TestLoc
+When: TestDatetime
+Cell No: 0730174671
+
+Msisdn:01234567890
+[15/Nov/2017 13:07:45] ERROR [tti_ussd.utils:26] global name 'json' is not defined
+[15/Nov/2017 13:07:45] DEBUG [tti_ussd.utils:9] Sending sms.
+Message:Thank you for booking your cash wash appointment.
+We will contact you shortly to confirm your booking and pricing.
+
+The Tomorrow Investments
+Mobile/Whatsapp:01234567890
+Msisdn:0730174671
+[15/Nov/2017 13:07:46] ERROR [tti_ussd.utils:26] global name 'json' is not defined
+[15/Nov/2017 13:07:46] DEBUG [tti_ussd.views:55] Requested: 2017-11-15 11:07
+Cars: 1
+Where: TestLoc
+When: TestDatetime
+Cell No: 0730174671
+
+[15/Nov/2017 13:15:33] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_response_Home': [u'1'], u'ussd_node_name': [u'Confirmation'], u'ussd_response_DateTime': [u'TestDatetime'], u'ussd_response_Address': [u'TestLoc']}>
+[15/Nov/2017 13:15:33] DEBUG [tti_ussd.views:20] 'NoneType' object has no attribute 'strip'
+[15/Nov/2017 13:15:33] DEBUG [tti_ussd.views:22] *120*912*87#
+[15/Nov/2017 13:15:33] DEBUG [tti_ussd.views:23] None
+[15/Nov/2017 13:15:33] DEBUG [tti_ussd.views:24] None
+[15/Nov/2017 13:15:33] DEBUG [tti_ussd.views:30] Called Menu
+[15/Nov/2017 13:15:33] DEBUG [tti_ussd.utils:9] Sending sms.
+Message:Requested: 2017-11-15 11:15
+Cars: 1
+Where: TestLoc
+When: TestDatetime
+Cell No: 0730174671
+
+Msisdn:0714549264
+[15/Nov/2017 13:15:39] ERROR [tti_ussd.utils:26] global name 'sms' is not defined
+[15/Nov/2017 13:15:39] DEBUG [tti_ussd.utils:9] Sending sms.
+Message:Thank you for booking your cash wash appointment.
+We will contact you shortly to confirm your booking and pricing.
+
+The Tomorrow Investments
+Mobile/Whatsapp:0714549264
+Msisdn:0730174671
+[15/Nov/2017 13:15:43] ERROR [tti_ussd.utils:26] global name 'sms' is not defined
+[15/Nov/2017 13:15:43] DEBUG [tti_ussd.views:55] Requested: 2017-11-15 11:15
+Cars: 1
+Where: TestLoc
+When: TestDatetime
+Cell No: 0730174671
+
+[20/Nov/2017 14:24:57] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_response_Address': [u'TestLoc'], u'ussd_msisdn': [u'27730174671'], u'ussd_node_name': [u'SubmitBookingRequest'], u'ussd_response_DateTime': [u'TestDatetime'], u'ussd_response_Active_Home': [u'1']}>
+[20/Nov/2017 14:24:57] DEBUG [tti_ussd.views:20] 'NoneType' object has no attribute 'strip'
+[20/Nov/2017 14:24:57] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:24:57] DEBUG [tti_ussd.views:23] None
+[20/Nov/2017 14:24:57] DEBUG [tti_ussd.views:24] None
+[20/Nov/2017 14:34:56] WARNING [django.request:152] Not Found: /admin/Hetro_app/album/4/change/
+[20/Nov/2017 14:34:56] WARNING [django.server:131] "GET /admin/Hetro_app/album/4/change/ HTTP/1.1" 404 4409
+[20/Nov/2017 14:34:57] WARNING [django.request:152] Not Found: /admin/Hetro_app/album/4/change/
+[20/Nov/2017 14:34:57] WARNING [django.server:131] "GET /admin/Hetro_app/album/4/change/ HTTP/1.1" 404 4409
+[20/Nov/2017 14:35:01] WARNING [django.request:152] Not Found: /static/admin/css/login.css
+[20/Nov/2017 14:35:01] WARNING [django.server:131] "GET /static/admin/css/login.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:35:03] WARNING [django.request:152] Not Found: /static/admin/css/login.css
+[20/Nov/2017 14:35:03] WARNING [django.server:131] "GET /static/admin/css/login.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:35:32] WARNING [django.request:152] Not Found: /static/admin/img/search.svg
+[20/Nov/2017 14:35:32] WARNING [django.server:131] "GET /static/admin/img/search.svg HTTP/1.1" 404 2109
+[20/Nov/2017 14:35:32] WARNING [django.request:152] Not Found: /static/admin/img/icon-yes.svg
+[20/Nov/2017 14:35:32] WARNING [django.server:131] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 404 2115
+[20/Nov/2017 14:35:33] WARNING [django.request:152] Not Found: /static/admin/img/search.svg
+[20/Nov/2017 14:35:33] WARNING [django.request:152] Not Found: /static/admin/img/icon-yes.svg
+[20/Nov/2017 14:35:33] WARNING [django.server:131] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 404 2115
+[20/Nov/2017 14:35:33] WARNING [django.server:131] "GET /static/admin/img/search.svg HTTP/1.1" 404 2109
+[20/Nov/2017 14:35:33] WARNING [django.request:152] Not Found: /static/admin/img/sorting-icons.svg
+[20/Nov/2017 14:35:33] WARNING [django.server:131] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 404 2130
+[20/Nov/2017 14:36:07] WARNING [django.request:152] Not Found: /static/admin/js/SelectBox.js
+[20/Nov/2017 14:36:07] WARNING [django.request:152] Not Found: /static/admin/js/SelectFilter2.js
+[20/Nov/2017 14:36:07] WARNING [django.server:131] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 404 2124
+[20/Nov/2017 14:36:07] WARNING [django.server:131] "GET /static/admin/js/SelectBox.js HTTP/1.1" 404 2112
+[20/Nov/2017 14:36:08] WARNING [django.request:152] Not Found: /static/admin/js/SelectBox.js
+[20/Nov/2017 14:36:08] WARNING [django.server:131] "GET /static/admin/js/SelectBox.js HTTP/1.1" 404 2112
+[20/Nov/2017 14:36:08] WARNING [django.request:152] Not Found: /static/admin/js/SelectFilter2.js
+[20/Nov/2017 14:36:08] WARNING [django.server:131] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 404 2124
+[20/Nov/2017 14:36:08] WARNING [django.request:152] Not Found: /static/admin/img/icon-yes.svg
+[20/Nov/2017 14:36:08] WARNING [django.server:131] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 404 2115
+[20/Nov/2017 14:36:15] WARNING [django.request:152] Not Found: /static/admin/img/search.svg
+[20/Nov/2017 14:36:15] WARNING [django.request:152] Not Found: /static/admin/img/icon-no.svg
+[20/Nov/2017 14:36:15] WARNING [django.request:152] Not Found: /static/admin/img/icon-yes.svg
+[20/Nov/2017 14:36:15] WARNING [django.server:131] "GET /static/admin/img/icon-no.svg HTTP/1.1" 404 2112
+[20/Nov/2017 14:36:15] WARNING [django.server:131] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 404 2115
+[20/Nov/2017 14:36:15] WARNING [django.server:131] "GET /static/admin/img/search.svg HTTP/1.1" 404 2109
+[20/Nov/2017 14:36:15] WARNING [django.request:152] Not Found: /static/admin/img/search.svg
+[20/Nov/2017 14:36:15] WARNING [django.server:131] "GET /static/admin/img/search.svg HTTP/1.1" 404 2109
+[20/Nov/2017 14:36:15] WARNING [django.request:152] Not Found: /static/admin/img/icon-no.svg
+[20/Nov/2017 14:36:15] WARNING [django.server:131] "GET /static/admin/img/icon-no.svg HTTP/1.1" 404 2112
+[20/Nov/2017 14:36:15] WARNING [django.request:152] Not Found: /static/admin/img/icon-yes.svg
+[20/Nov/2017 14:36:15] WARNING [django.request:152] Not Found: /static/admin/img/sorting-icons.svg
+[20/Nov/2017 14:36:15] WARNING [django.server:131] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 404 2115
+[20/Nov/2017 14:36:15] WARNING [django.server:131] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 404 2130
+[20/Nov/2017 14:36:30] WARNING [django.request:152] Not Found: /static/admin/js/SelectBox.js
+[20/Nov/2017 14:36:30] WARNING [django.request:152] Not Found: /static/admin/js/SelectFilter2.js
+[20/Nov/2017 14:36:30] WARNING [django.server:131] "GET /static/admin/js/SelectBox.js HTTP/1.1" 404 2112
+[20/Nov/2017 14:36:30] WARNING [django.server:131] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 404 2124
+[20/Nov/2017 14:36:30] WARNING [django.request:152] Not Found: /static/admin/js/SelectBox.js
+[20/Nov/2017 14:36:30] WARNING [django.server:131] "GET /static/admin/js/SelectBox.js HTTP/1.1" 404 2112
+[20/Nov/2017 14:36:30] WARNING [django.request:152] Not Found: /static/admin/js/SelectFilter2.js
+[20/Nov/2017 14:36:30] WARNING [django.server:131] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 404 2124
+[20/Nov/2017 14:39:32] ERROR [django.request:124] Internal Server Error: /admin/tti_ussd/churchadmin/add/
+Traceback (most recent call last):
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 1453, in changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 719, in log_addition
+    object_repr=force_text(object),
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/encoding.py", line 78, in force_text
+    s = six.text_type(s)
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/models.py", line 10, in __unicode__
+    return self.name
+AttributeError: 'ChurchAdmin' object has no attribute 'name'
+[20/Nov/2017 14:39:32] ERROR [django.server:131] "POST /admin/tti_ussd/churchadmin/add/?_to_field=id&_popup=1 HTTP/1.1" 500 128741
+[20/Nov/2017 14:40:06] WARNING [django.request:152] Not Found: /static/admin/js/popup_response.js
+[20/Nov/2017 14:40:06] WARNING [django.server:131] "GET /static/admin/js/popup_response.js HTTP/1.1" 404 2127
+[20/Nov/2017 14:40:14] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:15] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:15] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:18] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:18] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:25] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:25] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:29] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:29] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:39] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:39] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:40] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:40] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:45] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:45] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:40:55] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:40:55] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/css/forms.css
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/css/forms.css HTTP/1.1" 404 2106
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/img/icon-changelink.svg
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/change_form.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 404 2136
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/change_form.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:01] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate_init.js
+[20/Nov/2017 14:41:01] WARNING [django.server:131] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 404 2133
+[20/Nov/2017 14:41:11] WARNING [django.request:152] Not Found: /static/admin/js/popup_response.js
+[20/Nov/2017 14:41:11] WARNING [django.server:131] "GET /static/admin/js/popup_response.js HTTP/1.1" 404 2127
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/css/base.css
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/css/base.css HTTP/1.1" 404 2103
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/core.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/core.js HTTP/1.1" 404 2097
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 404 2145
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/jquery.init.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/jquery.init.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 404 2163
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/actions.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/actions.js HTTP/1.1" 404 2106
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/urlify.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/urlify.js HTTP/1.1" 404 2103
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/prepopulate.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/prepopulate.js HTTP/1.1" 404 2118
+[20/Nov/2017 14:41:19] WARNING [django.request:152] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[20/Nov/2017 14:41:19] WARNING [django.server:131] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 404 2151
+[20/Nov/2017 14:44:01] ERROR [django.request:124] Internal Server Error: /admin/tti_ussd/churchadmin/
+Traceback (most recent call last):
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/exception.py", line 39, in inner
+    response = get_response(request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 215, in _get_response
+    response = response.render()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/response.py", line 109, in render
+    self.content = self.rendered_content
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 208, in render
+    return self._render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/template/library.py", line 225, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_list.py", line 339, in result_list
+    'results': list(results(cl))}
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_list.py", line 315, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_list.py", line 306, in __init__
+    super(ResultList, self).__init__(*items)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_list.py", line 217, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/contrib/admin/utils.py", line 290, in lookup_field
+    value = attr()
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/base.py", line 579, in __str__
+    return force_text(self).encode('utf-8')
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/utils/encoding.py", line 78, in force_text
+    s = six.text_type(s)
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/models.py", line 10, in __unicode__
+    return self.user.username()
+TypeError: 'unicode' object is not callable
+[20/Nov/2017 14:44:02] ERROR [django.server:131] "GET /admin/tti_ussd/churchadmin/ HTTP/1.1" 500 283570
+[20/Nov/2017 14:47:05] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_response_Home': [u'1'], u'ussd_node_name': [u'Confirmation'], u'ussd_response_DateTime': [u'TestDatetime'], u'ussd_response_Address': [u'TestLoc']}>
+[20/Nov/2017 14:47:05] DEBUG [tti_ussd.views:20] 'NoneType' object has no attribute 'strip'
+[20/Nov/2017 14:47:05] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:47:05] DEBUG [tti_ussd.views:23] None
+[20/Nov/2017 14:47:05] DEBUG [tti_ussd.views:24] None
+[20/Nov/2017 14:47:05] DEBUG [tti_ussd.views:30] Called Menu
+[20/Nov/2017 14:47:05] DEBUG [tti_ussd.utils:9] Sending sms.
+Message:Requested: 2017-11-20 12:47
+Cars: 1
+Where: TestLoc
+When: TestDatetime
+Cell No: 0730174671
+
+Msisdn:0714549264
+[20/Nov/2017 14:47:06] ERROR [tti_ussd.utils:22] [Errno socket error] [Errno -3] Temporary failure in name resolution
+[20/Nov/2017 14:47:06] DEBUG [tti_ussd.utils:9] Sending sms.
+Message:Thank you for booking your cash wash appointment.
+We will contact you shortly to confirm your booking and pricing.
+
+The Tomorrow Investments
+Mobile/Whatsapp:0714549264
+Msisdn:0730174671
+[20/Nov/2017 14:47:06] ERROR [tti_ussd.utils:22] [Errno socket error] [Errno -3] Temporary failure in name resolution
+[20/Nov/2017 14:47:06] DEBUG [tti_ussd.views:55] Requested: 2017-11-20 12:47
+Cars: 1
+Where: TestLoc
+When: TestDatetime
+Cell No: 0730174671
+
+[20/Nov/2017 14:50:01] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_node_name': [u'Home']}>
+[20/Nov/2017 14:50:01] DEBUG [tti_ussd.views:20] 'NoneType' object has no attribute 'strip'
+[20/Nov/2017 14:50:01] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:50:01] DEBUG [tti_ussd.views:23] None
+[20/Nov/2017 14:50:01] DEBUG [tti_ussd.views:24] None
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:51:01] ERROR [tti_ussd.views:70] 'NoneType' object has no attribute '__getitem__'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 26, in ussdView
+    msisdn = '0'+str(msisdn[2:])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:51:01] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:51:01] ERROR [tti_ussd.views:70] 'NoneType' object has no attribute '__getitem__'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 26, in ussdView
+    msisdn = '0'+str(msisdn[2:])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+[20/Nov/2017 14:52:12] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:52:12] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:52:12] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:52:12] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:52:12] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:52:12] ERROR [tti_ussd.views:70] 'NoneType' object has no attribute '__getitem__'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 26, in ussdView
+    msisdn = '0'+str(msisdn[2:])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+[20/Nov/2017 14:53:39] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:53:39] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:53:39] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:53:39] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:53:39] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:53:39] ERROR [tti_ussd.views:70] 'NoneType' object has no attribute '__getitem__'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 26, in ussdView
+    msisdn = '0'+str(msisdn[2:])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+[20/Nov/2017 14:54:12] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:54:12] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:54:12] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:54:12] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:54:12] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:54:12] ERROR [tti_ussd.views:70] 'NoneType' object has no attribute '__getitem__'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 26, in ussdView
+    msisdn = '0'+str(msisdn[2:])
+TypeError: 'NoneType' object has no attribute '__getitem__'
+[20/Nov/2017 14:54:26] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:54:26] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:54:26] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:54:26] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:54:26] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:54:27] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:54:27] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:54:27] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:54:27] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:54:27] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:54:36] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:54:36] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:54:36] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:54:36] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:54:36] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:54:37] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:54:37] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:54:37] DEBUG [tti_ussd.views:22] *120*912*87#
+[20/Nov/2017 14:54:37] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:54:37] DEBUG [tti_ussd.views:24] *130*912
+[20/Nov/2017 14:54:58] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*912']}>
+[20/Nov/2017 14:54:58] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:54:58] DEBUG [tti_ussd.views:22] *130*912
+[20/Nov/2017 14:54:58] DEBUG [tti_ussd.views:23] *130*912
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:55:14] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:55:16] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:55:16] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:55:16] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:55:16] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:56:24] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:56:24] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:56:24] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:56:24] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:56:25] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:56:25] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:56:25] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:56:25] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:56:26] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:56:26] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:56:26] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:56:26] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:56:29] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:56:29] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:56:29] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:56:29] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:56:43] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:56:44] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:56:44] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:56:44] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:56:44] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:57:40] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:57:40] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:57:40] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:57:40] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:22] *130*117*1
+[20/Nov/2017 14:57:41] DEBUG [tti_ussd.views:23] *130*117*1
+[20/Nov/2017 14:58:17] DEBUG [tti_ussd.views:12] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:58:17] DEBUG [tti_ussd.views:20] list index out of range
+[20/Nov/2017 14:58:17] DEBUG [tti_ussd.views:23] *130*117*1#
+[20/Nov/2017 14:58:17] DEBUG [tti_ussd.views:24] *130*117*1
+[20/Nov/2017 14:59:06] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:59:06] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 14:59:06] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 14:59:06] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:59:06] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 14:59:06] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 14:59:28] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:59:28] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 14:59:28] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 14:59:49] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 14:59:49] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 14:59:49] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:00:55] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_request': [u'*130*117*1']}>
+[20/Nov/2017 15:00:55] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:00:55] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:00:55] DEBUG [tti_ussd.views:25] None
+[20/Nov/2017 15:01:19] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:01:19] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:01:19] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:01:19] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:01:19] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:01:19] ERROR [tti_ussd.views:73] Church matching query does not exist.
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 63, in ussdView
+    church = Church.objects.get(ussd_string=ussd_request+"#")
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: Church matching query does not exist.
+[20/Nov/2017 15:01:55] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:01:55] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:01:55] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:01:55] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:01:55] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:01:55] INFO [tti_ussd.views:64] Holy Ghost Fire
+[20/Nov/2017 15:01:55] ERROR [tti_ussd.views:73] 'church_name'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 65, in ussdView
+    response = "Welcome to {church_name}".format(church_name__startswith=church.name)
+KeyError: 'church_name'
+[20/Nov/2017 15:01:56] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:01:56] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:01:56] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:01:56] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:01:56] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:01:56] INFO [tti_ussd.views:64] Holy Ghost Fire
+[20/Nov/2017 15:01:56] ERROR [tti_ussd.views:73] 'church_name'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 65, in ussdView
+    response = "Welcome to {church_name}".format(church_name__startswith=church.name)
+KeyError: 'church_name'
+[20/Nov/2017 15:02:26] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:02:26] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:02:26] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:02:26] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:02:26] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:02:26] INFO [tti_ussd.views:64] Holy Ghost Fire
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:03:08] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:03:08] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:03:08] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:05:11] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:05:11] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:05:11] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:05:11] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:05:11] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:05:11] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:05:12] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:05:12] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:05:12] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:05:12] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:05:12] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:05:12] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:07:14] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:07:14] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:07:14] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:07:14] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:07:14] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:07:14] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:07:36] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:07:36] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:07:36] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:07:36] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:07:36] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:07:36] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:07:55] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:07:55] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:07:55] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:07:55] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:07:55] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:07:55] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:10:15] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:10:15] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:10:15] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:10:15] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:10:15] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:10:15] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:10:15] ERROR [tti_ussd.views:81] Cannot resolve keyword 'admin' into field. Choices are: church, id, user, user_id
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 72, in ussdView
+    if church.admin.filter(admin__user__username=msisdn).exists():
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+FieldError: Cannot resolve keyword 'admin' into field. Choices are: church, id, user, user_id
+[20/Nov/2017 15:10:45] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27730174671'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:10:45] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:10:45] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:10:45] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:10:45] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:10:45] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:11:21] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:11:21] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:11:21] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:11:21] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:11:21] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:11:21] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:11:21] DEBUG [tti_ussd.views:73] User is Admin
+[20/Nov/2017 15:13:12] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:13:12] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:13:12] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:13:12] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:13:12] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:13:12] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:13:12] DEBUG [tti_ussd.views:72] User is Admin
+[20/Nov/2017 15:13:29] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:13:29] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:13:29] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:13:29] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:13:29] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:13:29] INFO [tti_ussd.views:64] Holy Ghost Fire
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*6'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:24] *130*117*6#
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:14:28] ERROR [tti_ussd.views:83] Church matching query does not exist.
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 63, in ussdView
+    church = Church.objects.get(ussd_string=ussd_request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: Church matching query does not exist.
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*6'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:24] *130*117*6#
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:14:28] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:14:28] ERROR [tti_ussd.views:83] Church matching query does not exist.
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 63, in ussdView
+    church = Church.objects.get(ussd_string=ussd_request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: Church matching query does not exist.
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:14:31] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:72] User is Admin
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:14:31] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:14:31] DEBUG [tti_ussd.views:72] User is Admin
+[20/Nov/2017 15:17:15] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:17:15] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:17:15] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:17:15] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:17:15] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:17:15] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:17:15] DEBUG [tti_ussd.views:72] User is Admin
+[20/Nov/2017 15:20:46] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:20:46] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:20:46] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:20:46] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:20:46] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:20:46] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:20:46] ERROR [tti_ussd.views:83] global name 'featured_update' is not defined
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 69, in ussdView
+    "4. Contact\n".format(church_name=church.name,custom_call_title=getattr(church,featured_update.title,'Help'))
+NameError: global name 'featured_update' is not defined
+[20/Nov/2017 15:30:39] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*2'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:30:39] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:30:39] DEBUG [tti_ussd.views:24] *130*117*2#
+[20/Nov/2017 15:30:39] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:30:39] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:30:39] INFO [tti_ussd.views:64] Zcc
+[20/Nov/2017 15:30:39] DEBUG [tti_ussd.views:72] User is Admin
+[20/Nov/2017 15:31:01] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:31:01] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:31:01] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:31:01] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:31:01] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:31:01] INFO [tti_ussd.views:64] Holy Ghost Fire
+[20/Nov/2017 15:31:01] ERROR [tti_ussd.views:83] 'NoneType' object has no attribute 'title'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 69, in ussdView
+    "4. Contact\n".format(church_name=church.name,custom_call_title=church.featured_update.title)
+AttributeError: 'NoneType' object has no attribute 'title'
+[20/Nov/2017 15:31:02] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:31:02] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:31:02] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:31:02] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:31:02] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:31:02] INFO [tti_ussd.views:64] Holy Ghost Fire
+[20/Nov/2017 15:31:02] ERROR [tti_ussd.views:83] 'NoneType' object has no attribute 'title'
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 69, in ussdView
+    "4. Contact\n".format(church_name=church.name,custom_call_title=church.featured_update.title)
+AttributeError: 'NoneType' object has no attribute 'title'
+[20/Nov/2017 15:33:03] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'Menu']}>
+[20/Nov/2017 15:33:03] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:33:03] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:33:03] DEBUG [tti_ussd.views:25] Menu
+[20/Nov/2017 15:33:03] DEBUG [tti_ussd.views:62] Selected MEnu
+[20/Nov/2017 15:33:03] INFO [tti_ussd.views:64] Holy Ghost Fire
+[20/Nov/2017 15:42:14] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList']}>
+[20/Nov/2017 15:42:14] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:42:14] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:42:14] DEBUG [tti_ussd.views:25] UpdatesList
+[20/Nov/2017 15:42:14] ERROR [tti_ussd.views:94] global name 'Updates' is not defined
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 81, in ussdView
+    updates = Updates.objects.filter(church=church,published=True)
+NameError: global name 'Updates' is not defined
+[20/Nov/2017 15:42:24] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList']}>
+[20/Nov/2017 15:42:24] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:42:24] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:42:24] DEBUG [tti_ussd.views:25] UpdatesList
+[20/Nov/2017 15:42:37] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList']}>
+[20/Nov/2017 15:42:37] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:42:37] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:42:37] DEBUG [tti_ussd.views:25] UpdatesList
+[20/Nov/2017 15:43:18] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList']}>
+[20/Nov/2017 15:43:18] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:43:18] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:43:18] DEBUG [tti_ussd.views:25] UpdatesList
+[20/Nov/2017 15:47:46] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList']}>
+[20/Nov/2017 15:47:46] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:47:46] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:47:46] DEBUG [tti_ussd.views:25] UpdatesList
+[20/Nov/2017 15:47:47] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList']}>
+[20/Nov/2017 15:47:47] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:47:47] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:47:47] DEBUG [tti_ussd.views:25] UpdatesList
+[20/Nov/2017 15:48:09] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:48:09] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:48:09] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:48:09] DEBUG [tti_ussd.views:25] UpdatesList
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:48:26] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:49:07] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:49:07] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:49:07] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:49:07] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:49:45] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:49:45] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:49:45] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:49:45] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:50:30] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:50:30] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:50:30] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:50:30] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:51:13] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:51:13] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:51:13] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:51:13] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:51:22] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:51:22] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:51:22] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:51:22] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:51:37] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'1']}>
+[20/Nov/2017 15:51:37] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:51:37] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:51:37] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'2']}>
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'2']}>
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:52:37] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:53:58] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesDetail'], u'ussd_response_UpdatesList': [u'2']}>
+[20/Nov/2017 15:53:58] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:53:58] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:53:58] DEBUG [tti_ussd.views:25] UpdatesDetail
+[20/Nov/2017 15:54:22] DEBUG [tti_ussd.views:13] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[20/Nov/2017 15:54:22] DEBUG [tti_ussd.views:21] list index out of range
+[20/Nov/2017 15:54:22] DEBUG [tti_ussd.views:24] *130*117*1#
+[20/Nov/2017 15:54:22] DEBUG [tti_ussd.views:25] UpdatesList
+[21/Nov/2017 09:26:44] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:26:44] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:26:44] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:26:44] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 09:27:42] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:27:42] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:27:42] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:27:42] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 09:27:43] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:27:43] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:27:43] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:27:43] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 09:29:21] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:29:21] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:29:21] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:29:21] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 09:29:21] ERROR [tti_ussd.views:103] 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 87, in ussdView
+    response += "{counter}. {update_title}-{update_time}\n".format(counter=update.id,update_title=update.title,update_time=humanize.naturaltime(update.datetime))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 09:30:23] ERROR [tti_ussd.views:103] 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 87, in ussdView
+    response += "{counter}. {update_title}-{update_time}\n".format(counter=update.id,update_title=update.title,update_time=str(humanize.naturaltime(update.datetime)))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:30:23] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 09:30:23] ERROR [tti_ussd.views:103] 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 87, in ussdView
+    response += "{counter}. {update_title}-{update_time}\n".format(counter=update.id,update_title=update.title,update_time=str(humanize.naturaltime(update.datetime)))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+[21/Nov/2017 09:31:07] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:31:07] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:31:07] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:31:07] DEBUG [tti_ussd.views:26] UpdatesList
+[21/Nov/2017 09:31:07] ERROR [tti_ussd.views:103] 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/TTIPlatform/tti_ussd/views.py", line 87, in ussdView
+    response += "{counter}. {update_title}-{update_time}\n".format(counter=update.id,update_title=update.title,update_time=humanize.naturaltime(update.datetime))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xa0' in position 1: ordinal not in range(128)
+[21/Nov/2017 09:31:35] DEBUG [tti_ussd.views:14] <QueryDict: {u'ussd_msisdn': [u'27812829452'], u'ussd_request': [u'*130*117*1'], u'ussd_node_name': [u'UpdatesList'], u'ussd_response_UpdatesList': [u'2']}>
+[21/Nov/2017 09:31:35] DEBUG [tti_ussd.views:22] list index out of range
+[21/Nov/2017 09:31:35] DEBUG [tti_ussd.views:25] *130*117*1#
+[21/Nov/2017 09:31:35] DEBUG [tti_ussd.views:26] UpdatesList
