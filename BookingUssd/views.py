@@ -25,6 +25,11 @@ def ussdView(request):
         logger.debug(ussd_request)
         if not ussd_request.endswith('#'):
             ussd_request = ussd_request+"#"
+        
+        if "ussd_request" not in request.session.keys():
+            request.session["ussd_request"] = ussd_request
+        else:
+            ussd_request = request.session["ussd_request"]
         logger.debug(ussd_request)
         church = Church.objects.get(ussd_string=ussd_request)
         logger.debug(ussd_request)

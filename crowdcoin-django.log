@@ -1877,3 +1877,46 @@ DoesNotExist: Church matching query does not exist.
 [22/Nov/2017 20:45:54] DEBUG [BookingUssd.views:31] PublicMenu
 [22/Nov/2017 20:45:54] DEBUG [BookingUssd.views:38] Selected MEnu
 [22/Nov/2017 20:45:54] INFO [BookingUssd.views:39] The Tomorrow Investments
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:25] *120*912*87#
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:28] *120*912*87#
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:30] *120*912*87#
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:31] BookingSubject
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:25] *120*912*87#
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:28] *120*912*87#
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:30] *120*912*87#
+[22/Nov/2017 20:46:24] DEBUG [BookingUssd.views:31] BookingSubject
+[22/Nov/2017 20:50:58] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 20:50:58] DEBUG [BookingUssd.views:25] *120*912*87#
+[22/Nov/2017 20:50:58] DEBUG [BookingUssd.views:33] *120*912*87#
+[22/Nov/2017 20:50:58] DEBUG [BookingUssd.views:35] *120*912*87#
+[22/Nov/2017 20:50:58] DEBUG [BookingUssd.views:36] BookingSubject
+[22/Nov/2017 20:51:06] DEBUG [BookingUssd.views:14] [u'test', u'ussd_request', u'session_id']
+[22/Nov/2017 20:51:06] DEBUG [BookingUssd.views:25] *120*912*87#
+[22/Nov/2017 20:51:06] DEBUG [BookingUssd.views:33] *120*912*87#
+[22/Nov/2017 20:51:06] DEBUG [BookingUssd.views:35] *120*912*87#
+[22/Nov/2017 20:51:06] DEBUG [BookingUssd.views:36] BookingSubject
+[22/Nov/2017 20:51:10] DEBUG [BookingUssd.views:14] [u'test', u'ussd_request', u'session_id']
+[22/Nov/2017 20:51:10] DEBUG [BookingUssd.views:25] *120*912*87#
+[22/Nov/2017 20:51:10] DEBUG [BookingUssd.views:33] *120*912*87#
+[22/Nov/2017 20:51:10] DEBUG [BookingUssd.views:35] *120*912*87#
+[22/Nov/2017 20:51:10] DEBUG [BookingUssd.views:36] BookingSubject
+[22/Nov/2017 20:51:31] DEBUG [BookingUssd.views:14] [u'test', u'ussd_request', u'session_id']
+[22/Nov/2017 20:51:31] DEBUG [BookingUssd.views:23] list index out of range
+[22/Nov/2017 20:51:31] DEBUG [BookingUssd.views:25] *120*912*837#
+[22/Nov/2017 20:51:31] DEBUG [BookingUssd.views:33] *120*912*87#
+[22/Nov/2017 20:51:31] DEBUG [BookingUssd.views:35] *120*912*87#
+[22/Nov/2017 20:51:31] DEBUG [BookingUssd.views:36] BookingSubject
+[22/Nov/2017 20:51:32] DEBUG [BookingUssd.views:14] [u'test', u'ussd_request', u'session_id']
+[22/Nov/2017 20:51:32] DEBUG [BookingUssd.views:23] list index out of range
+[22/Nov/2017 20:51:32] DEBUG [BookingUssd.views:25] *120*912*837#
+[22/Nov/2017 20:51:32] DEBUG [BookingUssd.views:33] *120*912*87#
+[22/Nov/2017 20:51:32] DEBUG [BookingUssd.views:35] *120*912*87#
+[22/Nov/2017 20:51:32] DEBUG [BookingUssd.views:36] BookingSubject
+[22/Nov/2017 20:51:33] DEBUG [BookingUssd.views:14] [u'test', u'ussd_request', u'session_id']
+[22/Nov/2017 20:51:33] DEBUG [BookingUssd.views:23] list index out of range
+[22/Nov/2017 20:51:33] DEBUG [BookingUssd.views:25] *120*912*837#
+[22/Nov/2017 20:51:33] DEBUG [BookingUssd.views:33] *120*912*87#
+[22/Nov/2017 20:51:33] DEBUG [BookingUssd.views:35] *120*912*87#
+[22/Nov/2017 20:51:33] DEBUG [BookingUssd.views:36] BookingSubject
