@@ -32,36 +32,6 @@ def ussdView(request):
         #msisdn = '0'+str(msisdn[2:])
 
 
-        if node_name == "Confirmation":
-            logger.debug("Called Menu")
-
-            # Create booking request
-            # http://0.0.0.0:8000/ussd/?ussd_msisdn=27730174671&ussd_node_name=Confirmation&ussd_response_Home=1&ussd_response_Address=TestLoc&ussd_response_DateTime=TestDatetime
-            cars_no = request.GET.get("ussd_response_Home")
-            address = request.GET.get("ussd_response_Address")
-            preferred_time = request.GET.get("ussd_response_DateTime")
-
-            msg_admin = "Requested: {time_now}\n" \
-            			"Cars: {cars_no}\n" \
-            			"Where: {address}\n"\
-            			"When: {preferred_time}\n"\
-            			"Cell No: {cell_no}\n".format(cars_no=cars_no,
-            				address=address,
-            				preferred_time=preferred_time,
-            				cell_no=msisdn,
-            				time_now=str(timezone.now())[:16])
-
-            msg_requester = "Thank you for booking your cash wash appointment.\n" \
-            				"We will contact you shortly to confirm your booking and pricing.\n\n"\
-            				"The Tomorrow Investments\n"\
-            				"Mobile/Whatsapp:{SUPPORT_CELL_NO}".format(SUPPORT_CELL_NO=settings.SUPPORT_CELL_NO)
-            send_sms(msg_admin,settings.SUPPORT_CELL_NO)
-            send_sms(msg_requester,msisdn)
-
-            logger.debug(msg_admin)
-            response = msg_requester
-
-            return HttpResponse(response)
 
         if node_name == "Menu":
             logger.debug("Selected MEnu")
@@ -90,6 +60,38 @@ def ussdView(request):
             return HttpResponse(response) 
 
 
+        if node_name == "BookingMessage":
+            
+            response = "{booking_message}\n\n*. Back".format(booking_message=church.booking_message_label)
+
+            return HttpResponse(response) 
+
+
+        if node_name == "BookingConfirmation":
+            logger.debug("Called Menu")
+
+            # Create booking request
+            # http://0.0.0.0:8000/ussd/?ussd_msisdn=27730174671&ussd_node_name=Confirmation&ussd_response_Home=1&ussd_response_Address=TestLoc&ussd_response_DateTime=TestDatetime
+            cars_no = request.GET.get("ussd_response_BookingSubject")
+            address = request.GET.get("ussd_response_BookingMessage")
+
+            msg_admin = "New Request:\n" \
+                        "{cars_no}\n" \
+                        "{address}\n"\
+                        "By:{cell_no} @ {time_now}\n".format(cars_no=cars_no,
+                            address=address,
+                            cell_no=msisdn,
+                            time_now=str(timezone.now())[:16])
+
+            msg_requester = church.booking_submission_message.format(SUPPORT_CELL_NO=settings.SUPPORT_CELL_NO)
+            #send_sms(msg_admin,settings.SUPPORT_CELL_NO)
+            #send_sms(msg_requester,msisdn)
+
+            logger.debug(msg_admin)
+            response = msg_requester
+            response += "\n*. Back"
+            return HttpResponse(response)
+
         if node_name == "FeaturedDetail":
             update = church.featured_update
             response = "{update_title}\n{update_detail}\n\n*. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
@@ -115,11 +117,11 @@ def ussdView(request):
             return HttpResponse(response)            
         else:
             response = "No option selected"
+            response += "\n*. Menu"
             return HttpResponse(response, status=200)
 
     except Exception as e:
         logger.exception(e)
-        response="An error occurred. Please contact support\n" \
-                 "0) Help"
+        response="An error occurred. Please contact support\n\n*. Back"
         return HttpResponse(response)
 

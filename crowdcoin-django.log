@@ -1675,3 +1675,157 @@ DoesNotExist: Church matching query does not exist.
 [22/Nov/2017 06:58:36] DEBUG [BookingUssd.views:30] Menu
 [22/Nov/2017 06:58:36] DEBUG [BookingUssd.views:67] Selected MEnu
 [22/Nov/2017 06:58:36] INFO [BookingUssd.views:68] The Tomorrow Investments
+[22/Nov/2017 13:54:13] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 13:54:13] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 13:54:13] DEBUG [BookingUssd.views:30] UpdatesList
+[22/Nov/2017 13:54:26] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 13:54:26] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 13:54:26] DEBUG [BookingUssd.views:30] BookingSubject
+[22/Nov/2017 13:54:26] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 13:54:26] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 13:54:26] DEBUG [BookingUssd.views:30] BookingSubject
+[22/Nov/2017 13:55:58] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 13:55:58] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 13:55:58] DEBUG [BookingUssd.views:30] FeaturedDetail
+[22/Nov/2017 13:56:01] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 13:56:01] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 13:56:01] DEBUG [BookingUssd.views:30] FeaturedDetail
+[22/Nov/2017 13:56:02] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 13:56:02] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 13:56:02] DEBUG [BookingUssd.views:30] FeaturedDetail
+[22/Nov/2017 14:35:44] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:35:44] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:35:44] DEBUG [BookingUssd.views:30] BookingMessage
+[22/Nov/2017 14:36:14] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:36:14] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:36:14] DEBUG [BookingUssd.views:30] BookingSubject
+[22/Nov/2017 14:36:15] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:36:15] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:36:15] DEBUG [BookingUssd.views:30] BookingSubject
+[22/Nov/2017 14:37:14] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:37:14] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:37:14] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:37:14] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:37:14] DEBUG [BookingUssd.utils:9] Sending sms.
+Message:Requested: 2017-11-22 12:37
+Cars: None
+Where: None
+Cell No: 27730174671
+
+Msisdn:0714549264
+[22/Nov/2017 14:37:18] DEBUG [BookingUssd.utils:9] Sending sms.
+Message:Thank you for booking your cash wash appointment.
+We will contact you shortly to confirm your booking and pricing.
+
+The Tomorrow Investments
+Mobile/Whatsapp:0714549264
+Msisdn:27730174671
+[22/Nov/2017 14:37:19] DEBUG [BookingUssd.views:93] Requested: 2017-11-22 12:37
+Cars: None
+Where: None
+Cell No: 27730174671
+
+[22/Nov/2017 14:37:19] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:37:19] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:37:19] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:37:19] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:37:19] DEBUG [BookingUssd.utils:9] Sending sms.
+Message:Requested: 2017-11-22 12:37
+Cars: None
+Where: None
+Cell No: 27730174671
+
+Msisdn:0714549264
+[22/Nov/2017 14:37:20] DEBUG [BookingUssd.utils:9] Sending sms.
+Message:Thank you for booking your cash wash appointment.
+We will contact you shortly to confirm your booking and pricing.
+
+The Tomorrow Investments
+Mobile/Whatsapp:0714549264
+Msisdn:27730174671
+[22/Nov/2017 14:37:21] DEBUG [BookingUssd.views:93] Requested: 2017-11-22 12:37
+Cars: None
+Where: None
+Cell No: 27730174671
+
+[22/Nov/2017 14:39:47] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:39:47] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:39:47] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:39:47] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:39:47] DEBUG [BookingUssd.views:93] New Request:
+None
+None
+By:27730174671 @ 2017-11-22 12:39
+
+[22/Nov/2017 14:43:14] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:43:14] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:43:14] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:43:14] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:43:14] DEBUG [BookingUssd.views:93] New Request:
+None
+None
+By:27730174671 @ 2017-11-22 12:43
+
+[22/Nov/2017 14:43:25] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:43:25] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:43:25] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:43:25] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:43:25] DEBUG [BookingUssd.views:93] New Request:
+None
+None
+By:27730174671 @ 2017-11-22 12:43
+
+[22/Nov/2017 14:43:50] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:43:50] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:43:50] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:43:50] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:43:50] DEBUG [BookingUssd.views:90] New Request:
+None
+None
+By:27730174671 @ 2017-11-22 12:43
+
+[22/Nov/2017 14:47:24] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:47:24] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:47:24] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:47:24] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:47:24] DEBUG [BookingUssd.views:90] New Request:
+None
+None
+By:27730174671 @ 2017-11-22 12:47
+
+[22/Nov/2017 14:47:52] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:47:52] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:47:52] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:47:52] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:47:52] DEBUG [BookingUssd.views:90] New Request:
+None
+None
+By:27730174671 @ 2017-11-22 12:47
+
+[22/Nov/2017 14:49:01] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:49:01] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:49:01] DEBUG [BookingUssd.views:30] BookingConfirmation
+[22/Nov/2017 14:49:01] DEBUG [BookingUssd.views:71] Called Menu
+[22/Nov/2017 14:49:01] DEBUG [BookingUssd.views:90] New Request:
+None
+None
+By:27730174671 @ 2017-11-22 12:49
+
+[22/Nov/2017 14:49:05] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:49:05] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:49:05] DEBUG [BookingUssd.views:30] BookingConfirmationl
+[22/Nov/2017 14:49:05] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:49:05] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:49:05] DEBUG [BookingUssd.views:30] BookingConfirmationl
+[22/Nov/2017 14:49:32] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:49:32] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:49:32] DEBUG [BookingUssd.views:30] BookingConfirmationl
+[22/Nov/2017 14:49:37] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:49:37] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:49:37] DEBUG [BookingUssd.views:30] BookingConfirmationl
+[22/Nov/2017 14:50:19] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:50:19] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:50:19] DEBUG [BookingUssd.views:30] BookingConfirmationl
+[22/Nov/2017 14:50:21] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:50:21] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:50:21] DEBUG [BookingUssd.views:30] BookingConfirmationl
