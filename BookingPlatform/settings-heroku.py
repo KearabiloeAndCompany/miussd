@@ -164,7 +164,7 @@ LOGGING = {
             'level':'WARNING',
             'formatter': 'verbose',
         },
-        'tti_ussd': {
+        'BookingUssd': {
             'handlers': ['file','console'],
             'level': 'DEBUG',
             'formatter': ['verbose'],

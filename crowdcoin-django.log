@@ -1829,3 +1829,6 @@ By:27730174671 @ 2017-11-22 12:49
 [22/Nov/2017 14:50:21] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
 [22/Nov/2017 14:50:21] DEBUG [BookingUssd.views:29] *120*912*87#
 [22/Nov/2017 14:50:21] DEBUG [BookingUssd.views:30] BookingConfirmationl
+[22/Nov/2017 14:54:00] DEBUG [BookingUssd.views:14] [u'test', u'session_id']
+[22/Nov/2017 14:54:00] DEBUG [BookingUssd.views:29] *120*912*87#
+[22/Nov/2017 14:54:00] DEBUG [BookingUssd.views:30] FeaturedDetail
