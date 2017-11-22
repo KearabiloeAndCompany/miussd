@@ -22,10 +22,10 @@ def ussdView(request):
         except Exception as e:
             logger.debug(e.message)
             ussd_request_args = ussd_request
-        if not ussd_request.endswith('%23'):
-            ussd_request = ussd_request.strip('%23')
+        logger.debug(ussd_request)
+        if not ussd_request.endswith('#'):
             ussd_request = ussd_request+"#"
-        
+        logger.debug(ussd_request)
         church = Church.objects.get(ussd_string=ussd_request)
         logger.debug(ussd_request)
         logger.debug(node_name)
