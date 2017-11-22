@@ -2079,3 +2079,8 @@ TypeError: coercing to Unicode: need string or buffer, NoneType found
 [22/Nov/2017 21:07:31] DEBUG [BookingUssd.views:35] *120*912*87#
 [22/Nov/2017 21:07:31] DEBUG [BookingUssd.views:36] The Tomorrow Investments
 [22/Nov/2017 21:07:31] DEBUG [BookingUssd.views:37] BookingSubject
+[22/Nov/2017 21:30:38] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[22/Nov/2017 21:30:38] DEBUG [BookingUssd.views:28] *120*912*87#
+[22/Nov/2017 21:30:39] DEBUG [BookingUssd.views:38] *120*912*87#
+[22/Nov/2017 21:30:39] DEBUG [BookingUssd.views:39] The Tomorrow Investments
+[22/Nov/2017 21:30:39] DEBUG [BookingUssd.views:40] BookingSubject

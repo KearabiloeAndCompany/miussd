@@ -8,6 +8,8 @@ from BookingUssd.models import *
 from django.contrib.humanize.templatetags import humanize
 from django.utils.translation import gettext
 from django.utils.crypto import get_random_string
+import json
+
 logger = logging.getLogger(__name__)
 
 def ussdView(request):
@@ -30,7 +32,8 @@ def ussdView(request):
         ussd_session = UssdSession.objects.get_or_create(session_id=session_id)[0]
         if not ussd_session.church:
             ussd_session.church = Church.objects.get(ussd_string=ussd_request)
-            ussd_session.save()
+        ussd_session.request = json.dumps(request.GET.copy())
+        ussd_session.save()
         church = ussd_session.church
         logger.debug(ussd_request)
         logger.debug(church)
