@@ -33,7 +33,7 @@ def ussdView(request):
 
 
 
-        if node_name == "Menu":
+        if node_name == "PublicMenu":
             logger.debug("Selected MEnu")
             logger.info(church)
             response = "{church_name}:\n" \
@@ -68,7 +68,6 @@ def ussdView(request):
 
 
         if node_name == "BookingConfirmation":
-            logger.debug("Called Menu")
 
             # Create booking request
             # http://0.0.0.0:8000/ussd/?ussd_msisdn=27730174671&ussd_node_name=Confirmation&ussd_response_Home=1&ussd_response_Address=TestLoc&ussd_response_DateTime=TestDatetime
