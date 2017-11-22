@@ -22,6 +22,5 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^static/(?P<path>.*)$', static.serve, {'document_root': settings.STATIC_ROOT}),
     url(r'^ussd/$' , view=ussdView, name='ussd'),
 ]+ staticfiles_urlpatterns()
