@@ -93,7 +93,7 @@ def ussdView(request):
                             time_now=str(timezone.now())[:16])
 
             msg_requester = church.booking_submission_message.format(SUPPORT_CELL_NO=settings.SUPPORT_CELL_NO)
-            #send_sms(msg_admin,settings.SUPPORT_CELL_NO)
+            send_sms(msg_admin,settings.SUPPORT_CELL_NO)
             #send_sms(msg_requester,msisdn)
 
             logger.debug(msg_admin)
