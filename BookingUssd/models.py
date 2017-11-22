@@ -11,11 +11,14 @@ class ChurchAdmin(models.Model):
 
 class Church(models.Model):
 	admin = models.ManyToManyField(ChurchAdmin)
-	ussd_string = models.CharField(max_length=150,null=True)
+	ussd_string = models.CharField(max_length=150,unique=True)
 	name = models.CharField(max_length=100, default="Church Name")
-	contact_details = models.CharField(max_length=150)
-	address = models.CharField(max_length=150)
-	banking_details = models.CharField(max_length=150)
+	contact_details = models.TextField(max_length=150,null=True,blank=True)
+	address = models.TextField(max_length=150,null=True,blank=True)
+	banking_details = models.TextField(max_length=150,null=True,blank=True)
+	booking_action_label = models.TextField(max_length=150,null=True,blank=True,default="Book Appointment")
+	booking_subject_label = models.TextField(max_length=150,null=True,blank=True,default="What would you like to discuss?")
+	updates_action_label = models.TextField(max_length=150,null=True,blank=True,default="Latest Updates")
 	featured_update = models.ForeignKey('Update', null=True, blank=True, related_name="church_featured_update")
 
 	def __unicode__(self):

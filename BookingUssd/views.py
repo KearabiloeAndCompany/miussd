@@ -11,17 +11,21 @@ logger = logging.getLogger(__name__)
 
 def ussdView(request):
     try:
-        logger.debug(request.GET)
+        logger.debug(request.session.keys())
         msisdn = request.GET.get('ussd_msisdn')
         node_name = request.GET.get("ussd_node_name")
         network = request.GET.get("ussd_network_name")
         ussd_request = request.GET.get("ussd_request")
+        
         try:
             ussd_request_args = ussd_request.strip("#").split(settings.USSD_STRING[:-1],1)[1][1:].split("*")
         except Exception as e:
             logger.debug(e.message)
             ussd_request_args = ussd_request
+        if not ussd_request.endswith('#'):
             ussd_request = ussd_request+"#"
+        
+        church = Church.objects.get(ussd_string=ussd_request)
         logger.debug(ussd_request)
         logger.debug(node_name)
         #Replace country code
@@ -61,38 +65,52 @@ def ussdView(request):
 
         if node_name == "Menu":
             logger.debug("Selected MEnu")
-            church = Church.objects.get(ussd_string=ussd_request)
             logger.info(church)
-            response = "Welcome to {church_name}\n\n" \
-                        "1. Book Appointment\n" \
-                        "2. Updates\n" \
-                        "3. {custom_call_title}\n" \
-                        "4. Contact\n".format(church_name=church.name,custom_call_title=church.featured_update.title)
+            response = "{church_name}:\n" \
+                        "1. {book_appointment}\n" \
+                        "2. {featured_update}\n" \
+                        "3. {updates}\n" \
+                        "4. Contact\n".format(church_name=church.name,
+                            featured_update=church.featured_update.title,
+                            book_appointment=church.booking_action_label,
+                            updates=church.updates_action_label)
 
             if church.admin.filter(user__username=msisdn).exists():
                 logger.debug("User is Admin")
-                response += "6. Admin\n"
+                response += "0. Admin\n"
             else:
-                response += "5. Sign up\n"
+                response += "5. Share via sms\n"
 
             return HttpResponse(response)
 
+        if node_name == "BookingSubject":
+            
+            response = "{booking_subject}\n\n*. Back".format(booking_subject=church.booking_subject_label)
+
+            return HttpResponse(response) 
+
+
+        if node_name == "FeaturedDetail":
+            update = church.featured_update
+            response = "{update_title}\n{update_detail}\n\n*. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+
+            return HttpResponse(response)             
+
         if node_name == "UpdatesList":
-            church = Church.objects.get(ussd_string=ussd_request)
             updates = Update.objects.filter(church=church,published=True)
             counter = 1
-            response = "{church}'s Updates\n".format(church=church.name)
+            response = ""
 
             for update in updates:
-                response += "{counter}. {update_title}-{update_time}\n".format(counter=update.id,update_title=update.title,update_time=update.datetime)
+                response += "{counter}. {update_title}\n".format(counter=update.id,update_title=update.title,update_time=update.datetime)
                 counter += 1
+            response += "\n*. Back"
             return HttpResponse(response)
 
         if node_name == "UpdatesDetail":
-            church = Church.objects.get(ussd_string=ussd_request)
             update_id = request.GET.get("ussd_response_UpdatesList")
             update = Update.objects.get(id=update_id)
-            response = "{update_title}::\nWhen:{update_datetime}\nDetatils:{update_detail}\n\n7. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+            response = "{update_title}\n{update_detail}\n\n*. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
 
             return HttpResponse(response)            
         else:
