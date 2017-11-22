@@ -36,3 +36,14 @@ class Update(models.Model):
 
 	def __unicode__(self):
 		return self.title	
+
+class UssdSession(models.Model):
+	session_id = models.CharField(max_length=150,null=True,blank=True)
+	church = models.ForeignKey(Church,null=True,blank=True)
+	request = models.CharField(max_length=500)
+	datetime = models.DateTimeField(auto_now_add=True)
+	active = models.BooleanField(default=True)	
+
+
+	def __unicode__(self):
+		return str(self.session_id)

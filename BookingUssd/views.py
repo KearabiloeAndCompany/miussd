@@ -7,6 +7,7 @@ from BookingUssd.utils import send_sms
 from BookingUssd.models import *
 from django.contrib.humanize.templatetags import humanize
 from django.utils.translation import gettext
+from django.utils.crypto import get_random_string
 logger = logging.getLogger(__name__)
 
 def ussdView(request):
@@ -16,7 +17,7 @@ def ussdView(request):
         node_name = request.GET.get("ussd_node_name")
         network = request.GET.get("ussd_network_name")
         ussd_request = request.GET.get("ussd_request")
-        
+        session_id = request.GET.get("ussd_session_id",get_random_string(length=32))
         try:
             ussd_request_args = ussd_request.strip("#").split(settings.USSD_STRING[:-1],1)[1][1:].split("*")
         except Exception as e:
@@ -26,13 +27,13 @@ def ussdView(request):
         if not ussd_request.endswith('#'):
             ussd_request = ussd_request+"#"
         
-        if "ussd_request" not in request.session.keys():
-            request.session["ussd_request"] = ussd_request
-        else:
-            ussd_request = request.session["ussd_request"]
+        ussd_session = UssdSession.objects.get_or_create(session_id=session_id)[0]
+        if not ussd_session.church:
+            ussd_session.church = Church.objects.get(ussd_string=ussd_request)
+            ussd_session.save()
+        church = ussd_session.church
         logger.debug(ussd_request)
-        church = Church.objects.get(ussd_string=ussd_request)
-        logger.debug(ussd_request)
+        logger.debug(church)
         logger.debug(node_name)
         #Replace country code
         #msisdn = '0'+str(msisdn[2:])
