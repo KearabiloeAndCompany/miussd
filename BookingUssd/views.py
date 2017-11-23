@@ -44,20 +44,105 @@ def ussdView(request):
 
 
         if node_name == "PublicMenu":
-            logger.debug("Selected MEnu")
-            logger.info(church)
             response = "{church_name}:\n" \
                         "1. {book_appointment}\n" \
                         "2. {featured_update}\n" \
                         "3. {updates}\n" \
-                        "4. Contact\n"\
-                        "5. Admin\n".format(church_name=church.name,
+                        "4. Contact\n".format(church_name=church.name,
                             featured_update=church.featured_update.title,
                             book_appointment=church.booking_action_label,
                             updates=church.updates_action_label)
 
 
+            if church.admin.filter(user__username=msisdn).exists():
+                logger.debug("User is Admin")
+                response += "5. Admin\n"
+
+
+
             return HttpResponse(response)
+
+        if node_name == "AdminMenu":
+            response = "1. Change Name\n"\
+                        "2. New Update\n"
+
+            return HttpResponse(response)
+
+
+        if node_name == "AdminChangeName":
+            response = "Current name:{display_name}\n"\
+                        "Enter a new name:\n"\
+                        "Example: CocaCola SA\n"\
+                        "\n00. Back".format(display_name=church.name)
+
+            return HttpResponse(response)
+
+        if node_name == "AdminChangeNameConfirmation":
+            new_name = request.GET.get("ussd_response_AdminChangeName")
+            church.name = new_name
+            church.save()
+            response = "Your New Public name is:\n{display_name}\n00. Back".format(display_name=church.name)
+
+            return HttpResponse(response)
+
+        if node_name == "AdminNewUpdateTitle":
+            response = "Enter Update's Title:\n"\
+                        "Example: How it works\n"\
+                        "\n00. Back"
+
+            return HttpResponse(response)
+
+        if node_name == "AdminNewUpdateDescription":
+            response = "Enter Update's Content:\n"\
+                        "Example: This is how this services works.\n"\
+                        "\n00. Back"
+
+            return HttpResponse(response)
+
+
+        if node_name == "AdminNewUpdateFeatured":
+            response = "Do you want to make this update featured?\n"\
+                        "This will make it visible on the Menu as option 3.\n\n"\
+                        "1. Yes.\n"\
+                        "2. No.\n"\
+                        "\n00. Back"
+
+            return HttpResponse(response)
+
+
+        if node_name == "AdminNewUpdateConfirmation":
+            update_title = request.GET.get("ussd_response_AdminNewUpdateTitle")
+            update_description = request.GET.get("ussd_response_AdminNewUpdateDescription")
+            update_featured = request.GET.get("ussd_response_AdminNewUpdateFeatured")
+            logger.info(update_featured)
+            if update_featured in ["1",1]:
+                logger.debug("Making Update Featured")
+                update_featured = True
+            else:
+                update_featured = False
+            logger.info(update_featured)
+            update = Update.objects.create(title=update_title,description=update_description, datetime=timezone.now())
+            update.church.add(church)
+            update.save()
+
+            if update_featured:
+                church.featured_update = update
+                church.save()
+
+            response = "Published Update:\n"\
+                        "{update_title}\n"\
+                        "{update_description}\n"\
+                        "\n00. Back".format(update_title=update.title, update_description=update.description)
+
+            return HttpResponse(response)
+
+        # if node_name == "AdminChangeNameConfirmation":
+        #     new_name = request.GET.get("ussd_response_AdminChangeName")
+        #     church.name = new_name
+        #     church.save()
+        #     response = "New name is\n {display_name}".format(display_name=church.name)
+
+        #     return HttpResponse(response)
 
         if node_name == "BookingSubject":
             
