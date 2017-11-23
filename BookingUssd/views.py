@@ -65,14 +65,14 @@ def ussdView(request):
 
         if node_name == "BookingSubject":
             
-            response = "{booking_subject}\n\n*. Back".format(booking_subject=church.booking_subject_label)
+            response = "{booking_subject}\n\n00. Back".format(booking_subject=church.booking_subject_label)
 
             return HttpResponse(response) 
 
 
         if node_name == "BookingMessage":
             
-            response = "{booking_message}\n\n*. Back".format(booking_message=church.booking_message_label)
+            response = "{booking_message}\n\n00. Back".format(booking_message=church.booking_message_label)
 
             return HttpResponse(response) 
 
@@ -98,39 +98,45 @@ def ussdView(request):
 
             logger.debug(msg_admin)
             response = msg_requester
-            response += "\n*. Back"
+            response += "\n00. Back"
             return HttpResponse(response)
 
         if node_name == "FeaturedDetail":
             update = church.featured_update
-            response = "{update_title}\n{update_detail}\n\n*. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+            response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
 
             return HttpResponse(response)             
 
-        if node_name == "UpdatesList":
+        if node_name == "ContactDetail":
+            update = church.featured_update
+            response = "{contact}\n\n00. Back".format(contact=church.contact_details)
+
+            return HttpResponse(response)             
+
+        if node_name == "UpdateList":
             updates = Update.objects.filter(church=church,published=True)
             counter = 1
             response = ""
 
             for update in updates:
-                response += "{counter}. {update_title}\n".format(counter=update.id,update_title=update.title,update_time=update.datetime)
+                response += "{counter}. {update_title}\n".format(counter=update.id,update_title=update.title[:10],update_time=update.datetime)
                 counter += 1
-            response += "\n*. Back"
+            response += "\n00. Back"
             return HttpResponse(response)
 
-        if node_name == "UpdatesDetail":
+        if node_name == "UpdateDetail":
             update_id = request.GET.get("ussd_response_UpdatesList")
             update = Update.objects.get(id=update_id)
-            response = "{update_title}\n{update_detail}\n\n*. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+            response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
 
             return HttpResponse(response)            
         else:
             response = "No option selected"
-            response += "\n*. Menu"
+            response += "\n00. Menu"
             return HttpResponse(response, status=200)
 
     except Exception as e:
         logger.exception(e)
-        response="An error occurred. Please contact support\n\n*. Back"
+        response="An error occurred. Please contact support\n\n00. Back"
         return HttpResponse(response)
 
