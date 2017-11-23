@@ -56,7 +56,7 @@ def ussdView(request):
 
             if church.admin.filter(user__username=msisdn).exists():
                 logger.debug("User is Admin")
-                response += "5. Admin\n"
+                response += "00. Admin\n"
 
 
 
@@ -174,7 +174,7 @@ def ussdView(request):
                             time_now=str(timezone.now())[:16])
 
             msg_requester = church.booking_submission_message.format(SUPPORT_CELL_NO=settings.SUPPORT_CELL_NO)
-            send_sms(msg_admin,settings.SUPPORT_CELL_NO)
+            send_sms(msg_admin,church.user.username)
             #send_sms(msg_requester,msisdn)
 
             logger.debug(msg_admin)
@@ -206,7 +206,7 @@ def ussdView(request):
             return HttpResponse(response)
 
         if node_name == "UpdateDetail":
-            update_id = request.GET.get("ussd_response_UpdatesList")
+            update_id = int(request.GET.get("ussd_response_UpdatesList"))
             update = Update.objects.get(id=update_id)
             response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
 
