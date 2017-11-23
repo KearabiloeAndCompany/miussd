@@ -5,6 +5,13 @@ from django.db import models
 # Create your models here.
 class ChurchAdmin(models.Model):
 	user = models.OneToOneField(User)
+	notification_msisdn = models.CharField(max_length=20, null=True, blank=True)
+
+	def save(self, *args, **kwargs):
+		if not self.notification_msisdn:
+			self.notification_msisdn = self.user.username
+
+		super(ChurchAdmin, self).save()		
 
 	def __unicode__(self):
 		return self.user.username
