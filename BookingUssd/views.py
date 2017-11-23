@@ -50,16 +50,12 @@ def ussdView(request):
                         "1. {book_appointment}\n" \
                         "2. {featured_update}\n" \
                         "3. {updates}\n" \
-                        "4. Contact\n".format(church_name=church.name,
+                        "4. Contact\n"\
+                        "5. Admin\n".format(church_name=church.name,
                             featured_update=church.featured_update.title,
                             book_appointment=church.booking_action_label,
                             updates=church.updates_action_label)
 
-            if church.admin.filter(user__username=msisdn).exists():
-                logger.debug("User is Admin")
-                response += "0. Admin\n"
-            else:
-                response += "5. Share via sms\n"
 
             return HttpResponse(response)
 

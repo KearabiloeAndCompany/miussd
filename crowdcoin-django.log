@@ -2084,3 +2084,72 @@ TypeError: coercing to Unicode: need string or buffer, NoneType found
 [22/Nov/2017 21:30:39] DEBUG [BookingUssd.views:38] *120*912*87#
 [22/Nov/2017 21:30:39] DEBUG [BookingUssd.views:39] The Tomorrow Investments
 [22/Nov/2017 21:30:39] DEBUG [BookingUssd.views:40] BookingSubject
+[23/Nov/2017 10:44:44] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[23/Nov/2017 10:44:44] DEBUG [BookingUssd.views:26] list index out of range
+[23/Nov/2017 10:44:44] DEBUG [BookingUssd.views:28] *130*117*1
+[23/Nov/2017 10:44:44] ERROR [BookingUssd.views:140] Church matching query does not exist.
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/BookingPlatform/BookingUssd/views.py", line 34, in ussdView
+    ussd_session.church = Church.objects.get(ussd_string=ussd_request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: Church matching query does not exist.
+[23/Nov/2017 10:44:44] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[23/Nov/2017 10:44:44] DEBUG [BookingUssd.views:26] list index out of range
+[23/Nov/2017 10:44:44] DEBUG [BookingUssd.views:28] *130*117*1
+[23/Nov/2017 10:44:44] ERROR [BookingUssd.views:140] Church matching query does not exist.
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/BookingPlatform/BookingUssd/views.py", line 34, in ussdView
+    ussd_session.church = Church.objects.get(ussd_string=ussd_request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: Church matching query does not exist.
+[23/Nov/2017 10:44:53] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[23/Nov/2017 10:44:53] DEBUG [BookingUssd.views:26] list index out of range
+[23/Nov/2017 10:44:53] DEBUG [BookingUssd.views:28] *130*117*1
+[23/Nov/2017 10:44:53] ERROR [BookingUssd.views:140] Church matching query does not exist.
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/BookingPlatform/BookingUssd/views.py", line 34, in ussdView
+    ussd_session.church = Church.objects.get(ussd_string=ussd_request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: Church matching query does not exist.
+[23/Nov/2017 10:44:53] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[23/Nov/2017 10:44:53] DEBUG [BookingUssd.views:26] list index out of range
+[23/Nov/2017 10:44:53] DEBUG [BookingUssd.views:28] *130*117*1
+[23/Nov/2017 10:44:53] ERROR [BookingUssd.views:140] Church matching query does not exist.
+Traceback (most recent call last):
+  File "/home/flava/Workspace/MobileChurchCalendar/BookingPlatform/BookingUssd/views.py", line 34, in ussdView
+    ussd_session.church = Church.objects.get(ussd_string=ussd_request)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/flava/Workspace/crowdcoin-api/env/local/lib/python2.7/site-packages/django/db/models/query.py", line 385, in get
+    self.model._meta.object_name
+DoesNotExist: Church matching query does not exist.
+[23/Nov/2017 10:45:13] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[23/Nov/2017 10:45:13] DEBUG [BookingUssd.views:28] *120*912*87#
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:38] *120*912*87#
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:39] The Tomorrow Investments
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:40] PublicMenu
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:47] Selected MEnu
+[23/Nov/2017 10:45:14] INFO [BookingUssd.views:48] The Tomorrow Investments
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:28] *120*912*87#
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:38] *120*912*87#
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:39] The Tomorrow Investments
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:40] PublicMenu
+[23/Nov/2017 10:45:14] DEBUG [BookingUssd.views:47] Selected MEnu
+[23/Nov/2017 10:45:14] INFO [BookingUssd.views:48] The Tomorrow Investments
+[23/Nov/2017 10:45:32] DEBUG [BookingUssd.views:17] [u'test', u'ussd_request', u'session_id']
+[23/Nov/2017 10:45:32] DEBUG [BookingUssd.views:28] *120*912*87#
+[23/Nov/2017 10:45:32] DEBUG [BookingUssd.views:38] *120*912*87#
+[23/Nov/2017 10:45:32] DEBUG [BookingUssd.views:39] The Tomorrow Investments
+[23/Nov/2017 10:45:32] DEBUG [BookingUssd.views:40] PublicMenu
+[23/Nov/2017 10:45:32] DEBUG [BookingUssd.views:47] Selected MEnu
+[23/Nov/2017 10:45:32] INFO [BookingUssd.views:48] The Tomorrow Investments
