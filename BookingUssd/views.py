@@ -206,7 +206,7 @@ def ussdView(request):
             return HttpResponse(response)
 
         if node_name == "UpdateDetail":
-            update_id = int(request.GET.get("ussd_response_UpdatesList"))
+            update_id = int(request.GET.get("ussd_response_UpdateList"))
             update = Update.objects.get(id=update_id)
             response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
 
