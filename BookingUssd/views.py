@@ -64,7 +64,7 @@ def ussdView(request):
 
         if node_name == "AdminMenu":
             response = "1. Change Name\n"\
-                        "2. New Update\n"
+                        "2. New/Featured Update\n"
 
             return HttpResponse(response)
 
