@@ -171,16 +171,14 @@ def ussdView(request):
             username = request.GET.get("ussd_response_AdminRegister_Username")
             first_name = request.GET.get("ussd_response_AdminRegister_Firstname")
             last_name = request.GET.get("ussd_response_AdminRegister_Lastname")
-            email = request.GET.get("ussd_response_AdminRegister_Email")
             display_name = request.GET.get("ussd_response_AdminRegister_Displayname")
-            pin = request.GET.get("ussd_response_AdminRegister_Pin","0000")
+            # pin = request.GET.get("ussd_response_AdminRegister_Pin","0000")
+            # email = request.GET.get("ussd_response_AdminRegister_Email")
 
             try:
                 user = User.objects.get_or_create(username=username,
                     first_name=first_name,
-                    last_name=last_name,
-                    email=email,
-                    password=pin)[0]
+                    last_name=last_name)[0]
 
                 church_admin = ChurchAdmin.objects.get_or_create(user=user)[0]
 
