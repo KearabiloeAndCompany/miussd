@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 def ussdView(request):
     try:
-        logger.debug(request.session.keys())
+        logger.debug(request.GET.copy())
         msisdn = request.GET.get('ussd_msisdn')
         node_name = request.GET.get("ussd_node_name")
         network = request.GET.get("ussd_network_name")
@@ -42,14 +42,17 @@ def ussdView(request):
         #msisdn = '0'+str(msisdn[2:])
 
 
-
         if node_name == "PublicMenu":
+            if not church.featured_update:
+                featured_update = "Featured Update"
+            else:
+                featured_update = church.featured_update.title
             response = "{church_name}:\n" \
                         "1. {book_appointment}\n" \
                         "2. {featured_update}\n" \
                         "3. {updates}\n" \
                         "4. Contact\n".format(church_name=church.name,
-                            featured_update=church.featured_update.title,
+                            featured_update=featured_update,
                             book_appointment=church.booking_action_label,
                             updates=church.updates_action_label)
 
@@ -64,10 +67,38 @@ def ussdView(request):
 
         if node_name == "AdminMenu":
             response = "1. Change Name\n"\
-                        "2. New/Featured Update\n"
+                        "2. New/Featured Update\n"\
+                        "3. Add Admin\n"
 
             return HttpResponse(response)
 
+        if node_name == "AdminAddAdminConfirmation":
+            username = request.GET.get("ussd_response_AdminRegister_Username")
+            first_name = request.GET.get("ussd_response_AdminRegister_Firstname")
+            last_name = request.GET.get("ussd_response_AdminRegister_Lastname")
+            try:
+                user = User.objects.get_or_create(username=username,
+                    first_name=first_name,
+                    last_name=last_name)[0]
+
+                church_admin = ChurchAdmin.objects.get_or_create(user=user)[0]
+                church.admin.add(church_admin)
+                church.save()
+                response = "You have successfully added admin {user} to {church}".format(user=user.username,church=church.name)
+
+            except Exception,e:
+                logger.exception(e)
+                response = e.message
+
+            return HttpResponse(response)            
+
+        if node_name == "AdminChangeNameConfirmation":
+            new_name = request.GET.get("ussd_response_AdminChangeName")
+            church.name = new_name
+            church.save()
+            response = "Your New Public name is:\n{display_name}\n00. Back".format(display_name=church.name)
+
+            return HttpResponse(response)
 
         if node_name == "AdminChangeName":
             response = "Current name:{display_name}\n"\
@@ -136,13 +167,36 @@ def ussdView(request):
 
             return HttpResponse(response)
 
-        # if node_name == "AdminChangeNameConfirmation":
-        #     new_name = request.GET.get("ussd_response_AdminChangeName")
-        #     church.name = new_name
-        #     church.save()
-        #     response = "New name is\n {display_name}".format(display_name=church.name)
+        if node_name == "AdminRegisterConfirmation":
+            username = request.GET.get("ussd_response_AdminRegister_Username")
+            first_name = request.GET.get("ussd_response_AdminRegister_Firstname")
+            last_name = request.GET.get("ussd_response_AdminRegister_Lastname")
+            email = request.GET.get("ussd_response_AdminRegister_Email")
+            display_name = request.GET.get("ussd_response_AdminRegister_Displayname")
+            pin = request.GET.get("ussd_response_AdminRegister_Pin","0000")
 
-        #     return HttpResponse(response)
+            try:
+                user = User.objects.get_or_create(username=username,
+                    first_name=first_name,
+                    last_name=last_name,
+                    email=email,
+                    password=pin)[0]
+
+                church_admin = ChurchAdmin.objects.get_or_create(user=user)[0]
+
+                church = Church.objects.create(name=display_name)
+                church.admin.add(church_admin)
+                church.save()
+
+                response = "Profile Created. Dial {church_ussd} from " \
+                            "{admin_username} to manage {display_name}".format(display_name=church.name,
+                                admin_username=user.username,
+                                church_ussd=church.ussd_string)
+            except Exception,e:
+                logger.exception(e)
+                response = "An error occured.\n{error_message}".format(error_message=e.message)
+
+            return HttpResponse(response)
 
         if node_name == "BookingSubject":
             
@@ -174,7 +228,8 @@ def ussdView(request):
                             time_now=str(timezone.now())[:16])
 
             msg_requester = church.booking_submission_message.format(SUPPORT_CELL_NO=settings.SUPPORT_CELL_NO)
-            send_sms(msg_admin,church.user.username)
+            for admin in church.admin.all():
+                send_sms(msg_admin,admin.notification_msisdn)
             #send_sms(msg_requester,msisdn)
 
             logger.debug(msg_admin)
@@ -183,8 +238,11 @@ def ussdView(request):
             return HttpResponse(response)
 
         if node_name == "FeaturedDetail":
-            update = church.featured_update
-            response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+            if church.featured_update:
+                update = church.featured_update
+                response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+            else:
+                response = "To set a featured update go back to \nMenu and select Admin,\nNew/Featured Update and \nconfirm featured update when prompted\n\n00. Back"
 
             return HttpResponse(response)             
 
