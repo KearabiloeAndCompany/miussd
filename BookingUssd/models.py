@@ -25,7 +25,7 @@ class Church(models.Model):
 	admin = models.ManyToManyField(ChurchAdmin, blank=True)
 	ussd_string = models.CharField(max_length=150,unique=True)
 	name = models.CharField(max_length=100, default="Church Name")
-	contact_details = models.TextField(max_length=150,null=True,blank=True)
+	contact_details = models.TextField(max_length=150,default="You have not activated your account.\nDial *120*912*87*1# and Book a Demo appointment to activate.",blank=True)
 	address = models.TextField(max_length=150,null=True,blank=True)
 	banking_details = models.TextField(max_length=150,null=True,blank=True)
 	booking_action_label = models.TextField(max_length=150,null=True,blank=True,default="Book Appointment")
