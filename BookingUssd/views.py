@@ -95,7 +95,8 @@ def ussdView(request):
                 church_admin = ChurchAdmin.objects.get_or_create(user=user)[0]
                 church.admin.add(church_admin)
                 church.save()
-                response = "You have successfully added admin {user} to {church}".format(user=user.username,church=church.name)
+                response = "MobileAppointments:\n{user} is now an admin.\nDial {church_ussd} from {user} to manage {church}'s appointment bookings from your cellphone".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
+                send_sms(response[:160],church_admin.notification_msisdn)
 
             except Exception,e:
                 logger.exception(e)
@@ -200,10 +201,9 @@ def ussdView(request):
                 church.admin.add(church_admin)
                 church.save()
 
-                response = "Profile Created. Dial {church_ussd} from " \
-                            "{admin_username} to manage {display_name}".format(display_name=church.name,
-                                admin_username=user.username,
-                                church_ussd=church.ussd_string)
+                response = "MobileAppointments:\n{user} is now an admin.\nDial {church_ussd} from {user} to manage {church}'s appointment bookings from your cellphone".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
+                send_sms(response[:160],church_admin.notification_msisdn)
+
             except Exception,e:
                 logger.exception(e)
                 response = "An error occured.\n{error_message}".format(error_message=e.message)
@@ -231,18 +231,20 @@ def ussdView(request):
             cars_no = request.GET.get("ussd_response_BookingSubject")
             address = request.GET.get("ussd_response_BookingMessage")
 
-            msg_admin = "New Request:\n" \
+            msg_admin = "MobileAppointments:\n" \
                         "{cars_no}\n" \
                         "{address}\n"\
                         "By:{cell_no} @ {time_now}\n".format(cars_no=cars_no,
                             address=address,
                             cell_no=msisdn,
-                            time_now=str(timezone.now())[:16])
+                            time_now=str(timezone.now())[:16])[:160]
 
-            msg_requester = church.booking_submission_message.format(SUPPORT_CELL_NO=settings.SUPPORT_CELL_NO)
+            msg_requester = "MobileAppointments:\n"+church.booking_submission_message[:140]
+
             for admin in church.admin.all():
                 send_sms(msg_admin,admin.notification_msisdn)
-            #send_sms(msg_requester,msisdn)
+
+            send_sms(msg_requester,msisdn)
 
             logger.debug(msg_admin)
             response = msg_requester
