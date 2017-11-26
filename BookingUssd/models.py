@@ -52,7 +52,7 @@ class Church(models.Model):
 class Update(models.Model):
 	church = models.ManyToManyField(Church)
 	title = models.CharField(max_length=100)
-	description = models.CharField(max_length=100)
+	description = models.TextField(max_length=100)
 	datetime = models.DateTimeField()
 	published = models.BooleanField(default=True)	
 
