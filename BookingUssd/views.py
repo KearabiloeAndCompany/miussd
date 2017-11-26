@@ -72,6 +72,15 @@ def ussdView(request):
 
             return HttpResponse(response)
 
+
+        if node_name == "AdminConfirmUserAction":
+            username = request.GET.get("ussd_response_AdminRegister_Username")
+            response = "Please confirm your action:\n"\
+                        "1. Add {username} to {church}\n"\
+                        "2. Create new account\n\n00. Back".format(username=username,church=church.name)
+
+            return HttpResponse(response)
+
         if node_name == "AdminAddAdminConfirmation":
             username = request.GET.get("ussd_response_AdminRegister_Username")
             first_name = request.GET.get("ussd_response_AdminRegister_Firstname")
