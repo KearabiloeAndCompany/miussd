@@ -21,7 +21,7 @@ def ussdView(request):
         ussd_request = request.GET.get("ussd_request")
         session_id = request.GET.get("ussd_session_id",get_random_string(length=32))
         try:
-            ussd_request_args = ussd_request.strip("#").split(settings.USSD_STRING[:-1],1)[1][1:].split("*")
+            ussd_request_args = ussd_request.strip("#").split(settings.BASE_USSD_STRING[:-1],1)[1][1:].split("*")
         except Exception as e:
             logger.debug(e.message)
             ussd_request_args = ussd_request
