@@ -176,9 +176,13 @@ def ussdView(request):
             # email = request.GET.get("ussd_response_AdminRegister_Email")
 
             try:
-                user = User.objects.get_or_create(username=username,
-                    first_name=first_name,
-                    last_name=last_name)[0]
+                user,new_user = User.objects.get_or_create(username=username)
+                if new_user:
+                    user = new_user
+                    user.first_name=first_name,
+                    user.last_name=last_name
+                    user.save()
+
 
                 church_admin = ChurchAdmin.objects.get_or_create(user=user)[0]
 
