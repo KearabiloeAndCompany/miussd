@@ -187,7 +187,6 @@ def ussdView(request):
             try:
                 user,new_user = User.objects.get_or_create(username=username)
                 if new_user:
-                    user = new_user
                     user.first_name=first_name,
                     user.last_name=last_name
                     user.save()
