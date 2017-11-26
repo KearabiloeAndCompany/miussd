@@ -201,7 +201,7 @@ def ussdView(request):
                 church.admin.add(church_admin)
                 church.save()
 
-                response = "MobileAppointments:\n{user} is now an admin.\nDial {church_ussd} from {user} to manage {church}'s appointment bookings from your cellphone".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
+                response = "MobileAppointments:\n{user} is now an admin.\nDial {church_ussd} from {user} to manage {church}.\nNeed Help? dial *120*912*87*1#".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
                 send_sms(response[:160],church_admin.notification_msisdn)
 
             except Exception,e:
