@@ -63,7 +63,7 @@ class Update(models.Model):
 class UssdSession(models.Model):
 	session_id = models.CharField(max_length=150,null=True,blank=True)
 	church = models.ForeignKey(Church,null=True,blank=True)
-	request = models.CharField(max_length=500)
+	request = models.TextField(max_length=5000)
 	datetime = models.DateTimeField(auto_now_add=True)
 	active = models.BooleanField(default=True)	
 
