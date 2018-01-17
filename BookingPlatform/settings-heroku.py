@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '3$72c4qo$9b_cc@el*9mdi50z+pg$3y99$^kg(#=to3so#ra%!'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -171,3 +171,7 @@ LOGGING = {
         }
     }
 }
+
+PANACEA_USER  = os.environ.get('PANACEA_USER')
+
+PANACEA_PASSWORD  = os.environ.get('PANACEA_PASSWORD')

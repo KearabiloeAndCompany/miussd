@@ -174,3 +174,7 @@ LOGGING = {
         }
     }
 }
+
+PANACEA_USER  = os.environ.get('PANACEA_USER')
+
+PANACEA_PASSWORD  = os.environ.get('PANACEA_PASSWORD')
