@@ -239,7 +239,7 @@ def ussdView(request):
                             cell_no=msisdn,
                             time_now=str(timezone.now())[:16])[:160]
 
-            msg_requester = "MobileAppointments:\n"+church.booking_submission_message[:140]
+            msg_requester = church.booking_submission_message[:140]
 
             for admin in church.admin.all():
                 send_sms(msg_admin,admin.notification_msisdn)
