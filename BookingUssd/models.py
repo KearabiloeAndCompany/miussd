@@ -53,6 +53,9 @@ class Update(models.Model):
 	church = models.ManyToManyField(Church)
 	title = models.CharField(max_length=100)
 	description = models.TextField(max_length=100)
+	response = models.ForeignKey('Update',null=True,blank=True)
+	url = models.TextField(max_length=1000,null=True,blank=True)
+	fetch_url = models.BooleanField(default=False)
 	datetime = models.DateTimeField()
 	published = models.BooleanField(default=True)	
 

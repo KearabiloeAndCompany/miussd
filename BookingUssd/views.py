@@ -9,6 +9,8 @@ from django.contrib.humanize.templatetags import humanize
 from django.utils.translation import gettext
 from django.utils.crypto import get_random_string
 import json
+import requests
+from string import Template as str_template
 
 logger = logging.getLogger(__name__)
 
@@ -95,7 +97,7 @@ def ussdView(request):
                 church_admin = ChurchAdmin.objects.get_or_create(user=user)[0]
                 church.admin.add(church_admin)
                 church.save()
-                response = "MobileAppointments:\n{user} is now an admin.\nDial {church_ussd} from {user} to manage/book {church}'s appointment bookings from your cellphone".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
+                response = "{user} is now an admin.\nDial {church_ussd} from {user} to manage/book {church}'s appointment bookings from your cellphone".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
                 send_sms(response[:160],church_admin.notification_msisdn)
 
             except Exception,e:
@@ -201,7 +203,7 @@ def ussdView(request):
                 church.admin.add(church_admin)
                 church.save()
 
-                response = "MobileAppointments:\n{user} is now an admin.\nDial {church_ussd} from {user} to manage/book {church}.\nNeed Help? dial *120*912*87*1#".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
+                response = "{user} is now an admin.\nDial {church_ussd} from {user} to manage/book {church}.\nNeed Help? dial *120*912*87*1#".format(user=user.username,church=church.name, church_ussd=church.ussd_string)
                 send_sms(response[:160],church_admin.notification_msisdn)
 
             except Exception,e:
@@ -231,7 +233,7 @@ def ussdView(request):
             cars_no = request.GET.get("ussd_response_BookingSubject")
             address = request.GET.get("ussd_response_BookingMessage")
 
-            msg_admin = "MobileAppointments:\n" \
+            msg_admin = "" \
                         "{cars_no}\n" \
                         "{address}\n"\
                         "By:{cell_no} @ {time_now}\n".format(cars_no=cars_no,
@@ -251,14 +253,17 @@ def ussdView(request):
             response += "\n00. Back"
             return HttpResponse(response)
 
-        if node_name == "FeaturedDetail":
-            if church.featured_update:
-                update = church.featured_update
-                response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
-            else:
-                response = "To set a featured update go back to \nMenu and select Admin,\nNew/Featured Update and \nconfirm featured update when prompted\n\n00. Back"
+        # if node_name == "FeaturedDetail":
+        #     if church.featured_update:
+        #         update = church.featured_update
+        #         if update.fetch_url:
+        #             response = requests.get(update.url)
+        #         else:
+        #             response = update.description
+        #     else:
+        #         response = "To set a featured update go back to \nMenu and select Admin,\nNew/Featured Update and \nconfirm featured update when prompted\n\n00. Back"
 
-            return HttpResponse(response)             
+        #     return HttpResponse(response)             
 
         if node_name == "ContactDetail":
             update = church.featured_update
@@ -272,17 +277,42 @@ def ussdView(request):
             response = ""
 
             for update in updates:
-                response += "{counter}. {update_title}\n".format(counter=update.id,update_title=update.title[:10],update_time=update.datetime)
+                response += "{counter}. {update_title}\n".format(counter=counter,update_title=update.title[:10],update_time=update.datetime)
                 counter += 1
             response += "\n00. Back"
             return HttpResponse(response)
 
-        if node_name == "UpdateDetail":
-            update_id = int(request.GET.get("ussd_response_UpdateList"))
-            update = Update.objects.get(id=update_id)
-            response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+        if node_name in ["UpdateDetail","FeaturedDetail"]:
 
-            return HttpResponse(response)            
+            if node_name == "FeaturedDetail":
+                update = church.featured_update
+            else:
+                update_id = int(request.GET.get("ussd_response_UpdateList"))-1
+                update = Update.objects.filter(church=church,published=True)[update_id]
+
+            if update.fetch_url:
+                url = str_template(update.url).substitute(request.GET.copy())
+                logger.info(url)
+                response = requests.get(url)
+            else:
+                response = "{update_title}\n{update_detail}\n\n00. Back".format(update_title=update.title,update_datetime=str(update.datetime)[:16],update_detail=update.description)
+
+            return HttpResponse(response)       
+
+        if node_name == "UpdateDetailResponse":
+            update_id = int(request.GET.get("ussd_response_UpdateList"))-1
+            update = Update.objects.filter(church=church,published=True)[update_id]
+            logger.info(update)
+            update = update.response
+
+            if update.fetch_url:
+                url = str_template(update.url).substitute(request.GET.copy())
+                logger.info(url)
+                response = requests.get(url,ussd_session.request)
+            else:
+                response = update.description
+
+            return HttpResponse(response)                      
         else:
             response = "No option selected"
             response += "\n00. Menu"
