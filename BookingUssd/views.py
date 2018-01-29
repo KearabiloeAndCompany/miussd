@@ -273,7 +273,7 @@ def ussdView(request):
             return HttpResponse(response)             
 
         if node_name == "UpdateList":
-            updates = Update.objects.filter(church=church,published=True)
+            updates = Update.objects.filter(church=church,published=True).order_by('-datetime')
             counter = 1
             response = ""
 
@@ -289,7 +289,7 @@ def ussdView(request):
                 update = church.featured_update
             else:
                 update_id = int(request.GET.get("ussd_response_UpdateList"))-1
-                update = Update.objects.filter(church=church,published=True)[update_id]
+                update = Update.objects.filter(church=church,published=True).order_by('-datetime')[update_id]
                 logger.info(update)
             if update.fetch_url:
 
@@ -303,7 +303,7 @@ def ussdView(request):
 
         if node_name == "UpdateDetailResponse":
             update_id = int(request.GET.get("ussd_response_UpdateList"))-1
-            update = Update.objects.filter(church=church,published=True)[update_id]
+            update = Update.objects.filter(church=church,published=True).order_by('-datetime')[update_id]
             logger.info(update)
             update = update.response
 
