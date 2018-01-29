@@ -292,7 +292,8 @@ def ussdView(request):
                 update = Update.objects.filter(church=church,published=True)[update_id]
 
             if update.fetch_url:
-                url = str_template(update.url).substitute(request.GET.copy())
+                full_request.pop('ussd_response_UpdateDetail')
+                url = str_template(update.url).substitute(full_request)
                 logger.info(url)
                 response = requests.get(url)
             else:
