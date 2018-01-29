@@ -16,8 +16,8 @@ logger = logging.getLogger(__name__)
 
 def ussdView(request):
     try:
-        full_request = request.GET.copy()
-        logger.debug(full_request.dict())
+        full_request = request.GET.copy().dict()
+        logger.debug(full_request)
         msisdn = request.GET.get('ussd_msisdn')
         node_name = request.GET.get("ussd_node_name")
         network = request.GET.get("ussd_network_name")
