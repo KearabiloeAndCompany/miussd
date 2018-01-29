@@ -58,6 +58,7 @@ class Update(models.Model):
 	fetch_url = models.BooleanField(default=False)
 	datetime = models.DateTimeField()
 	published = models.BooleanField(default=True)	
+	public = models.BooleanField(default=True)	
 
 
 	def __unicode__(self):
