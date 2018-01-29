@@ -234,23 +234,30 @@ def ussdView(request):
             cars_no = request.GET.get("ussd_response_BookingSubject")
             address = request.GET.get("ussd_response_BookingMessage")
 
-            msg_admin = "" \
-                        "{cars_no}\n" \
-                        "{address}\n"\
-                        "By:{cell_no} @ {time_now}\n".format(cars_no=cars_no,
-                            address=address,
-                            cell_no=msisdn,
-                            time_now=str(timezone.now())[:16])[:160]
+            update = church.booking_submission_message
+            
 
-            msg_requester = church.booking_submission_message[:140]
+            if update.fetch_url:
+                url = str_template(update.url).substitute(full_request)
+                logger.info(url)
+                response = requests.get(url,ussd_session.request)
+                response = response.content
+            else:
+                msg_admin = "" \
+                    "{cars_no}\n" \
+                    "{address}\n"\
+                    "By:{cell_no} @ {time_now}\n".format(cars_no=cars_no,
+                        address=address,
+                        cell_no=msisdn,
+                        time_now=str(timezone.now())[:16])[:160]                
+                for admin in church.admin.all():
+                    send_sms(msg_admin,admin.notification_msisdn)
+                response = update.description
 
-            for admin in church.admin.all():
-                send_sms(msg_admin,admin.notification_msisdn)
+            if church.notify_requester:
+                response = update.description
+                send_sms(response,msisdn)
 
-            send_sms(msg_requester,msisdn)
-
-            logger.debug(msg_admin)
-            response = msg_requester
             response += "\n00. Back"
             return HttpResponse(response)
 

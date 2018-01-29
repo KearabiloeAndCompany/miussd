@@ -30,11 +30,13 @@ class Church(models.Model):
 	banking_details = models.TextField(max_length=150,null=True,blank=True)
 	booking_action_label = models.TextField(max_length=150,null=True,blank=True,default="Book Appointment")
 	booking_subject_label = models.TextField(max_length=150,null=True,blank=True,default="What would you like to discuss?")
-	booking_submission_message = models.TextField(max_length=150,null=True,blank=True,default="Thank you for submitting your request. We will be intouch shortly.")
+	booking_submission_message = models.ForeignKey('Update',null=True,blank=True, related_name='booking_update')
 	booking_message_label = models.TextField(max_length=150,null=True,blank=True,default="When and where?")
 	updates_action_label = models.TextField(max_length=150,null=True,blank=True,default="Latest Updates")
 	featured_update = models.ForeignKey('Update', null=True, blank=True, related_name="church_featured_update")
 	active = models.BooleanField(default=True)	
+	notify_requester = models.BooleanField(default=False)	
+	
 
 	def __unicode__(self):
 		return self.name	

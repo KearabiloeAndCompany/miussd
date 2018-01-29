@@ -8,8 +8,8 @@ def send_sms(message,msisdn):
     import urllib
     try:
         logger.debug("Sending sms.\nMsisdn:{msisdn}".format(message=message,msisdn=msisdn))
-        url = "https://api.panaceamobile.com/json?username={username}&password={password}&text={body}&to={recipient}&action=message_send&from={sender}".format(body=sms.message,
-            recipient=sms.msisdn,
+        url = "https://api.panaceamobile.com/json?username={username}&password={password}&text={body}&to={recipient}&action=message_send&from={sender}".format(body=message,
+            recipient=msisdn,
             sender="Crowdcoin",
             username=settings.PANACEA_USER,
             password=settings.PANACEA_PASSWORD)
