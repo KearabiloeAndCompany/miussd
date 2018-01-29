@@ -288,9 +288,9 @@ def ussdView(request):
             if node_name == "FeaturedDetail":
                 update = church.featured_update
             else:
-                update_id = int(request.GET.get("ussd_response_UpdateList"))-1
+                update_id = int(request.GET.get("ussd_response_UpdateList"))
                 update = Update.objects.filter(church=church,published=True)[update_id]
-
+                logger.info(ppdate)
             if update.fetch_url:
 
                 url = str_template(update.url).substitute(full_request)
