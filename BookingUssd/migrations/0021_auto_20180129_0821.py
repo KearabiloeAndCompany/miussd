@@ -13,8 +13,11 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunSQL('ALTER TABLE BookingUssd_church_booking_booking_update ALTER tag_id TYPE varchar(32);'),
-        migrations.AlterField(
+        migrations.RemoveField(
+            model_name='church',
+            name='booking_submission_message'
+        ),    
+        migrations.AddField(
             model_name='church',
             name='booking_submission_message',
             field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='booking_update', to='BookingUssd.Update'),
