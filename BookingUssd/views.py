@@ -258,7 +258,6 @@ def ussdView(request):
                 response = update.description
                 send_sms(response,msisdn)
 
-            response += "\n00. Back"
             return HttpResponse(response)
 
         # if node_name == "FeaturedDetail":
