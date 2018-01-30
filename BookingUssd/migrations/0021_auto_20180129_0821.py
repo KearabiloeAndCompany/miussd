@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunSQL('ALTER TABLE church_booking_submission_message ALTER tag_id TYPE varchar(32);'),
+        migrations.RunSQL('ALTER TABLE BookingUssd_church_booking_booking_update ALTER tag_id TYPE varchar(32);'),
         migrations.AlterField(
             model_name='church',
             name='booking_submission_message',
