@@ -151,7 +151,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'crowdcoin-django.log',
+            'filename': 'django.log',
             'formatter': 'verbose'
         },
         'console': {
